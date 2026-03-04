@@ -1,0 +1,140 @@
+body{
+
+font-family:Arial;
+text-align:center;
+
+background:linear-gradient(120deg,#1e3c72,#2a5298);
+
+min-height:200vh;
+
+transition:background 0.5s;
+
+}
+
+
+/* LOGIN BOX */
+
+.login-box{
+
+margin-top:120px;
+
+background:white;
+
+padding:40px;
+
+width:320px;
+
+border-radius:20px;
+
+margin-left:auto;
+margin-right:auto;
+
+box-shadow:0 10px 40px rgba(0,0,0,0.3);
+
+}
+
+
+/* INPUT */
+
+input,textarea{
+
+width:80%;
+padding:10px;
+
+margin:10px;
+
+border-radius:10px;
+
+border:1px solid #ccc;
+
+}
+
+
+/* BUTTON */
+
+button{
+
+padding:10px 20px;
+
+border:none;
+
+background:#4CAF50;
+
+color:white;
+
+border-radius:10px;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+button:hover{
+
+transform:scale(1.1);
+
+}
+
+
+/* GOOGLE BUTTON */
+
+.google-btn{
+
+background:#db4437;
+
+}
+
+
+/* HOBBY CARDS */
+
+.cards{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+
+gap:20px;
+
+width:80%;
+
+margin:auto;
+
+margin-top:50px;
+
+}
+
+
+.card{
+
+padding:30px;
+
+background:white;
+
+border-radius:20px;
+
+cursor:pointer;
+
+transition:0.3s;
+
+box-shadow:0 5px 20px rgba(0,0,0,0.2);
+
+}
+
+
+/* SELECTED CARD */
+
+.card.selected{
+
+background:#00e5ff;
+
+color:black;
+
+transform:scale(1.1);
+
+box-shadow:
+0 0 10px cyan,
+0 0 20px cyan,
+0 0 40px cyan;
+
+}
